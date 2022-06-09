@@ -35,9 +35,8 @@ const switchPlayer = function () {
 // create wining functionality
 const winnerFunction = function () {
   // if current score >= to 100;
-  if (scores[activePlayer] >= 50) {
-    // playing = false;
-    playing = true;
+  if (scores[activePlayer] >= 100) {
+    playing = false;
     diceEl.classList.add('hidden');
 
     document
