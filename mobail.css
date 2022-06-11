@@ -1,0 +1,72 @@
+main {
+  height: 100%;
+  border-radius: 0%;
+  margin: 0.1rem;
+  flex-direction: column;
+  filter: none;
+  background-color: rgb(210, 160, 160);
+}
+
+.player {
+  padding: 0.5rem;
+}
+/* ELEMENTS */
+.name {
+  font-size: 2.5rem;
+  letter-spacing: 2px;
+  word-spacing: 30px;
+  margin-bottom: 5px;
+}
+.score {
+  font-size: 5rem;
+  margin-bottom: 5px;
+  /* margin: 30px; */
+}
+.current {
+  width: 75%;
+  padding: 1rem;
+}
+
+/* ABSOLUTE POSITIONED ELEMENTS */
+.btn {
+  backdrop-filter: none;
+
+  border-radius: 5px;
+  width: 10rem;
+}
+.btn--hold {
+  top: 8rem;
+  left: 50%;
+  width: 30rem;
+}
+.btn--new {
+  top: 2rem;
+  left: 50%;
+  width: 30rem;
+}
+.btn--roll {
+  top: 37rem;
+  left: 50%;
+  width: 30rem;
+}
+.contact {
+  display: none;
+}
+.dice {
+  top: 25rem;
+  left: 50%;
+}
+.player--0 {
+  align-items: flex-start;
+  flex-direction: row;
+  padding: 20px;
+  padding-top: 14rem;
+  /* align-items: flex-end; */
+}
+
+.player--1 {
+  align-items: flex-start;
+  flex-direction: row;
+  padding: 20px;
+  align-items: flex-end;
+}
