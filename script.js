@@ -22,7 +22,9 @@ const scores = [0, 0];
 let currentScore = 0;
 let activePlayer = 0;
 let playing = true;
-// let limit = prompt;
+const limit = parseInt(
+  prompt('Choose oR Enter your winer functionality number like(20,50,100...): ')
+);
 
 // switch to next player
 const switchPlayer = function () {
@@ -36,7 +38,7 @@ const switchPlayer = function () {
 // create wining functionality
 const winnerFunction = function () {
   // if current score >= to 100;
-  if (scores[activePlayer] >= 50) {
+  if (scores[activePlayer] >= limit) {
     playing = false;
     diceEl.classList.add('hidden');
 
